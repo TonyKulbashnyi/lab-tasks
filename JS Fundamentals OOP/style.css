@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 80vw;
+    height: auto;
+    background-color: cornflowerblue;
+}
+
+.form {
+    width: 50%;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid lightskyblue;
+    background-color: lightskyblue;
+    color: darkblue;
+    font-size: 21px;
+    border-radius: 10px;
+}
+
+input,
+button {
+    border: 2px solid darkblue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+;
+}
+.text_hour,
+.text_month {
+    left: 20px;
+}
+.result {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.element {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.workers {
+    margin-bottom: 100px;
+}
+
+.worker,
+.workers_head {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 21px;
+}
+
+.workers_head {
+    background-color: midnightblue;
+    padding: 20px 0px;
+    color: white;
+}
+.worker:nth-child(2n) {
+    background-color: slateblue;
+}
+
+.worker {
+    background-color: royalblue;
+    font-size: 21px;
+    padding: 20px 0px;
+}

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.site_button {
+    position: absolute;
+    right: 0;
+    top:43vh;
+    width: 7vh;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    background-color: tomato;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.site_window {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 20vw;
+    background-color: tomato;
+}
+.site_close {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14vh;
+    height: 14vh;
+    position: relative;
+    top:43vh;
+    left: -7vh;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: tomato;
+    border-radius: 50%;
+}

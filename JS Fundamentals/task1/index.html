@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="grid">
+        <div class="grid-item fruit apple"></div>
+        <div class="grid-item vagetable potato"></div>
+        <div class="grid-item flower rose"></div>
+        <div class="grid-item fruit banana"></div>
+        <div class="grid-item vagetable tomato"></div>
+        <div class="grid-item flower chamomile"></div>
+        <div class="grid-item fruit orange"></div>
+        <div class="grid-item vagetable cucumber"></div>
+        <div class="grid-item flower orchid"></div>
+        <div class="grid-item fruit strawbarry"></div>
+        <div class="grid-item vagetable pepper"></div>
+        <div class="grid-item fruit kiwi"></div>
+        <div class="grid-item flower chrys"></div>
+    </div>
+
+    <div class="button-group ">
+        <div class="filter">
+            <button data-name='*' class="button">All</button>
+            <button data-name=".fruit" class="button">fruit</button>
+            <button data-name=".flower" class="button">flower</button>
+            <button data-name=".vagetable" class="button">vagetable</button>
+        </div>
+        <div class="sort">
+            <button data-name='original-order' class="button">original</button>
+            <button data-name='random' class="button">random</button>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="isotope.pkgd.min.js"></script>
+<script>
+
+
+    var $grid = $('.grid').isotope({
+        itemSelector: '.grid-item',
+        layoutMode: 'fitRows',
+        getSortData: {
+            name: function (element) {
+                return $(element).text();
+            }
+        }
+    });
+    $('.filter button').on("click", function () {
+        var value = $(this).attr('data-name');
+        $grid.isotope({
+            filter: value
+        });
+        $('.filter button').removeClass('active');
+        $(this).addClass('active');
+    })
+    $('.sort button').on("click", function () {
+        var value = $(this).attr('data-name');
+        $grid.isotope({
+            sortBy: value
+        });
+        $('.sort button').removeClass('active');
+        $(this).addClass('active');
+    })
+</script>
+</body>
+</html>

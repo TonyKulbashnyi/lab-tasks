@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="box">
+        <div class="form">
+            <h1>
+                New Employee:
+            </h1>
+            <div class="element">
+                    <span>Your name: </span>
+                    <input type="text" class="name">
+            </div>
+            <div class="element">
+                    <span>Your surname: </span>
+                    <input type="text" class="surname">
+            </div>
+            <div class="element">
+                <label>
+                <span>
+                    Salary per month:
+                </span>
+                    <input class="fix" type="radio" name="type" value="Fix">
+                </label>
+                <div>
+                    <input class="salary_month" type="number" placeholder="monthly payment" disabled>
+                    <span class="text_month hidden">
+                        grn/month
+                    </span>
+                </div>
+            </div>
+            <div class="element">
+                <label>
+                <span>
+                    Salary per hour:
+                </span>
+                 <input class="wage" type="radio" name="type" value="Wage">
+                </label>
+                <div>
+                    <input class="salary_per_hour" type="number" placeholder="payment per hour" disabled>
+                    <span class="text_hour hidden">
+                        grn/hour
+                    </span>
+                </div>
+                <!--<label>-->
+                <!--<input type="number" class="salary_hour hidden" placeholder="working hours in a month">-->
+                    <!--<span class="hours hidden">hours</span>-->
+                <!--</label>-->
+            </div>
+            <div class="element">
+                <input type="submit" value="add" class="submit">
+            </div>
+        </div>
+        <div class="result">
+
+           <div class="controls">
+               <button class="button_all">
+                   all
+               </button>
+               <button class="button_first">
+                   5 first
+               </button>
+               <button class="button_last">
+                   3 last
+               </button>
+           </div>
+            <div class="workers">
+                <div class="workers_head">
+                    <div class="worker_id"> id </div>
+                    <div class="worker_name"> name </div>
+                    <div class="worker_surname"> surname </div>
+                    <div class="worker_salary"> salary </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

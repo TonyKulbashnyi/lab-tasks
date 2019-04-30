@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box {
+    border: 3px solid springgreen;
+    width: 50vw;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.text {
+    background-color: cadetblue;
+    font-size: 32px;
+}
+.text:nth-child(2n) {
+    background-color: lightgreen;
+}

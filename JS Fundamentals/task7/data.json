@@ -1,0 +1,109 @@
+{
+  "champions": [
+    {
+      "year": 1930,
+      "champion": "Uruguay",
+      "stadium":"Estadio Centenario"
+    },
+    {
+      "year": 1934,
+      "champion": "Italy",
+      "stadium":"Stadio Nazionale PNF"
+    },
+    {
+      "year": 1938,
+      "champion": "Italy",
+      "stadium":"Stade Olympique de Colombes"
+    },
+    {
+      "year": 1950,
+      "champion": "Uruguay",
+      "stadium":"Estadio do Maracana"
+    },
+    {
+      "year": 1954,
+      "champion": "Germany",
+      "stadium":"Wankdorf Stadium"
+    },
+    {
+      "year": 1958,
+      "champion": "Brazil",
+      "stadium":"Rasunda Stadium"
+    },
+    {
+      "year": 1962,
+      "champion": "Brazil",
+      "stadium":"Estadio Nacional"
+    },
+    {
+      "year": 1966,
+      "champion": "England",
+      "stadium":"Wempley Stadium"
+    },
+    {
+      "year": 1970,
+      "champion": "Brazil",
+      "stadium":"Estadio Azteca"
+    },
+    {
+      "year": 1974,
+      "champion": "Germany",
+      "stadium":"Olympiastadion"
+    },
+    {
+      "year": 1978,
+      "champion": "Argentina",
+      "stadium":"Estadio Monumental"
+    },
+    {
+      "year": 1982,
+      "champion": "Italy",
+      "stadium":"Santiago Bernabéu"
+    },
+    {
+      "year": 1986,
+      "champion": "Argentina",
+      "stadium":"Estadio Azteca"
+    },
+    {
+      "year": 1990,
+      "champion": "Germany",
+      "stadium":"Stadio Olimpico"
+    },
+    {
+      "year": 1994,
+      "champion": "Brazil",
+      "stadium":"Rose Browl"
+    },
+    {
+      "year": 1998,
+      "champion": "France",
+      "stadium":"State de France"
+    },
+    {
+      "year": 2002,
+      "champion": "Brazil",
+      "stadium":"International Stadium"
+    },
+    {
+      "year": 2006,
+      "champion": "Italy",
+      "stadium":"Olimpiastadion"
+    },
+    {
+      "year": 2010,
+      "champion": "Spain",
+      "stadium":"Soccer City"
+    },
+    {
+      "year": 2014,
+      "champion": "Germany",
+      "stadium":"Estadio do Maracana"
+    },
+    {
+      "year": 2018,
+      "champion": "France",
+      "stadium":"Luzhniki Stadiun"
+    }
+  ]
+}
